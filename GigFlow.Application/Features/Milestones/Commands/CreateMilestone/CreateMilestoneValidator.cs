@@ -1,0 +1,15 @@
+﻿using FluentValidation;
+
+namespace GigFlow.Application.Features.Milestones.Commands.CreateMilestone
+{
+    public class CreateMilestoneCommandValidator : AbstractValidator<CreateMilestoneCommand>
+    {
+        public CreateMilestoneCommandValidator()
+        {
+            RuleFor(x => x.Title).NotEmpty().MaximumLength(200);
+            RuleFor(x => x.Description).MaximumLength(2000);
+            RuleFor(x => x.Amount).GreaterThan(0);
+            RuleFor(x => x.DueDate).GreaterThan(DateTime.UtcNow);
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="GigFlow.Application/GigFlow.Application.csproj" />
+  <Project Path="GigFlow.Domain/GigFlow.Domain.csproj" />
+  <Project Path="GigFlow.Infrastructure/GigFlow.Infrastructure.csproj" />
+  <Project Path="GigFlow.Persistence/GigFlow.Persistence.csproj" />
+  <Project Path="GigFlow.Presentation/GigFlow.Presentation.csproj" />
+</Solution>
