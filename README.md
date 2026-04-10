@@ -45,3 +45,11 @@ Her feature (JobPostings, Proposals, Contracts vb.) için MediatR handler yapıs
 - EF Core ile migration oluşturulmuştur
 - Migration dosyaları projeye dahildir
 
+- ## 📸 Swagger Screenshots
+
+### Swagger Ana Sayfa
+![Swagger 1](./images/swagger1.png)
+
+### API Endpoint Test
+![Swagger 2](./images/swagger2.png)
+
